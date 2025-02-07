@@ -14,6 +14,13 @@ module.exports = {
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
+    {
+      name: "Catfein ID",
+      password: "catfein",
+      host: "lava.catfein.com",
+      port: 4000,
+      secure: false
+    },
      {
       name: "Koi Node V4",
       password: "prplmoe.me",
